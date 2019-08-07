@@ -14,7 +14,7 @@
       var seasonsOfTheYear = ["winter","spring","summer","autum"]
        var myFavSeason = Math.floor(Math.random()*4);  // this function holds the random calculation
        var seaonsResults = seasonsOfTheYear[myFavSeason];
-       var seasonsLength = answer.length;
+       var seasonsLength = myFavSeason.length;
        var Display =[seasonsLength]
        
        alert(seaonsResults)
